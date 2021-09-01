@@ -1,0 +1,35 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+i { font-family: 'Dancing Script', cursive;}
+/* extarnal css*/
+.p1 {
+  color: antiquewhite;
+  background-color: black;
+}
+/*id css*/
+#lorem1 {
+    color: brown;
+    background-color: burlywood;
+}
+/*div , class*/
+.lorem2 {
+    color: burlywood;
+    background-color: darkblue;
+}
+
+/*inherite css*/
+p {
+    background-color: lightblue;
+}
+div p {
+    background-color: inherit;
+}
+/*unit*/
+.x{
+    background-color: lightslategrey;
+    font-size: 25px;
+    color: rgb(146, 25, 25);
+    margin: 55px;
+    width: calc(100% - 110px);
+
+}
